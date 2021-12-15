@@ -1,0 +1,10 @@
+<aura:documentation>
+	<aura:description>
+        <h1>Documentation</h1>
+        <p>This component demonstrates how to use Lightning Out with a public site.</p>
+        <p>It integrates with Google Tag Manager to pull the data layer into a custom object on Salesforce.</p>
+    </aura:description>
+	<aura:example name="HelloWorld" ref="c:LightningOutExample1" label="Hello World">
+		A HelloWorld component for demonstrating Lightning Out functionality.
+	</aura:example>
+</aura:documentation>

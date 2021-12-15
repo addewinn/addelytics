@@ -1,0 +1,4 @@
+<aura:component controller="GoogleTagManagerController" implements="force:appHostable,forceCommunity:availableForAllPageTypes" access="global">
+	<aura:attribute type="Map" name="dataLayer" default="{}" description="The window.datalayer object created by GTM" access="GLOBAL"/>
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}" description="init handler for component"/>
+</aura:component>

@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>An object for storing the data layer captured by Google Tag Manager and passed through your site via Lightning Out</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AncestorOrigins__c</fullName>
+        <description>Is a static DOMStringList containing, in reverse order, the origins of all ancestor browsing contexts of the document associated with the given Location object.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is a static DOMStringList containing, in reverse order, the origins of all ancestor browsing contexts of the document associated with the given Location object.</inlineHelpText>
+        <label>Location Ancestor Origins</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>BrowserEngineName__c</fullName>
+        <externalId>false</externalId>
+        <label>Browser Engine Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+                <value>
+                    <fullName>Blink</fullName>
+                    <default>false</default>
+                    <label>Blink</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BrowserEngineVersion__c</fullName>
+        <externalId>false</externalId>
+        <label>Browser Engine Version</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BrowserName__c</fullName>
+        <externalId>false</externalId>
+        <label>Browser Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>false</default>
+                    <label>Undefined</label>
+                </value>
+                <value>
+                    <fullName>Chrome</fullName>
+                    <default>false</default>
+                    <label>Chrome</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BrowserVersion__c</fullName>
+        <externalId>false</externalId>
+        <label>Browser Version</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CharacterSet__c</fullName>
+        <description>The Document.characterSet read-only property returns the character encoding of the document that it&apos;s currently rendered with.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Document.characterSet read-only property returns the character encoding of the document that it&apos;s currently rendered with.</inlineHelpText>
+        <label>Character Set</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContentType__c</fullName>
+        <description>The Document.contentType read-only property returns the MIME type that the document is being rendered as. This may come from HTTP headers or other sources of MIME information, and might be affected by automatic type conversions performed by either the browser or extensions.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Document.contentType read-only property returns the MIME type that the document is being rendered as. This may come from HTTP headers or other sources of MIME information, and might be affected by automatic type conversions performed by either the browser or extensions.</inlineHelpText>
+        <label>Content Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cookies__c</fullName>
+        <externalId>false</externalId>
+        <label>Cookies</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DataLayer__c</fullName>
+        <description>The window.dataLayer object</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The window.dataLayer object</inlineHelpText>
+        <label>Data Layer</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Day__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(WEEKDAY(DateValue(CreatedDate)) = 1,&quot;Sun&quot;,
+if(WEEKDAY(DateValue(CreatedDate)) = 2,&quot;Mon&quot;,
+if(WEEKDAY(DateValue(CreatedDate)) = 3,&quot;Tue&quot;,
+if(WEEKDAY(DateValue(CreatedDate)) = 4,&quot;Wed&quot;,
+if(WEEKDAY(DateValue(CreatedDate)) = 5,&quot;Thu&quot;,
+if(WEEKDAY(DateValue(CreatedDate)) = 6,&quot;Fri&quot;,
+&quot;Sat&quot;))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Day</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DeviceManufacturer__c</fullName>
+        <externalId>false</externalId>
+        <label>Device Manufacturer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DeviceModel__c</fullName>
+        <externalId>false</externalId>
+        <label>Device Model</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DeviceType__c</fullName>
+        <externalId>false</externalId>
+        <label>Device Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+                <value>
+                    <fullName>desktop</fullName>
+                    <default>false</default>
+                    <label>desktop</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Event__c</fullName>
+        <externalId>false</externalId>
+        <label>Event</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+                <value>
+                    <fullName>gtm.load</fullName>
+                    <default>false</default>
+                    <label>gtm.load</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FormClass__c</fullName>
+        <externalId>false</externalId>
+        <label>Form Class</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FormContactFormId__c</fullName>
+        <externalId>true</externalId>
+        <label>Form Contact Form Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FormContactFormLocale__c</fullName>
+        <externalId>false</externalId>
+        <label>Form Locale</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FormContainerPostId__c</fullName>
+        <externalId>true</externalId>
+        <label>Form Container Post Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FormID__c</fullName>
+        <externalId>true</externalId>
+        <label>Form ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FormInputs__c</fullName>
+        <externalId>false</externalId>
+        <label>Form Inputs</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FormInto__c</fullName>
+        <externalId>false</externalId>
+        <label>Form Into</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FormInvalidFields__c</fullName>
+        <externalId>false</externalId>
+        <label>Form Invalid Fields</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FormPluginVersion__c</fullName>
+        <externalId>false</externalId>
+        <label>Form Plugin Version</label>
+        <length>55</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FormPostedDataHash__c</fullName>
+        <externalId>false</externalId>
+        <label>Form Posted Data Hash</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FormResponseMessage__c</fullName>
+        <externalId>false</externalId>
+        <label>Form Response Message</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FormResponseStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Form Response Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FormStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Form Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FormUnitTag__c</fullName>
+        <externalId>false</externalId>
+        <label>Form Unit Tag</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>GtmDeviceId__c</fullName>
+        <description>The unique device Id extracted from the client id.  Represents the first 9 characters in the client id string</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The unique device Id extracted from the client id.  Represents the first 9 characters in the client id string</inlineHelpText>
+        <label>GTM Device Id</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hash__c</fullName>
+        <description>Is a USVString containing a &apos;#&apos; followed by the fragment identifier of the URL.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is a USVString containing a &apos;#&apos; followed by the fragment identifier of the URL.</inlineHelpText>
+        <label>Location Hash</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HostName__c</fullName>
+        <description>Is a USVString containing the domain of the URL.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is a USVString containing the domain of the URL.</inlineHelpText>
+        <label>Location Host Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Host__c</fullName>
+        <description>Is a USVString containing the host, that is the hostname, a &apos;:&apos;, and the port of the URL.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is a USVString containing the host, that is the hostname, a &apos;:&apos;, and the port of the URL.</inlineHelpText>
+        <label>Location Host</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Href__c</fullName>
+        <description>Is a stringifier that returns a USVString containing the entire URL. If changed, the associated document navigates to the new page. It can be set from a different origin than the associated document.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is a stringifier that returns a USVString containing the entire URL. If changed, the associated document navigates to the new page. It can be set from a different origin than the associated document.</inlineHelpText>
+        <label>Location HREF</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>InputID__c</fullName>
+        <externalId>true</externalId>
+        <label>Input ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Month__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(MONTH(DateValue(CreatedDate)) = 1,&quot;Jan&quot;,
+if(MONTH(DateValue(CreatedDate)) = 2,&quot;Feb&quot;,
+if(MONTH(DateValue(CreatedDate)) = 3,&quot;Mar&quot;,
+if(MONTH(DateValue(CreatedDate)) = 4,&quot;Apr&quot;,
+if(MONTH(DateValue(CreatedDate)) = 5,&quot;May&quot;,
+if(MONTH(DateValue(CreatedDate)) = 6,&quot;Jun&quot;,
+if(MONTH(DateValue(CreatedDate)) = 7,&quot;Jul&quot;,
+if(MONTH(DateValue(CreatedDate)) = 8,&quot;Aug&quot;,
+if(MONTH(DateValue(CreatedDate)) = 9,&quot;Sep&quot;,
+if(MONTH(DateValue(CreatedDate)) = 10,&quot;Oct&quot;,
+if(MONTH(DateValue(CreatedDate)) = 11,&quot;Nov&quot;,
+&quot;Dec&quot;)))))))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Month</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Origin__c</fullName>
+        <description>Returns a USVString containing the canonical form of the origin of the specific location.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Returns a USVString containing the canonical form of the origin of the specific location.</inlineHelpText>
+        <label>Location Origin</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>OsName__c</fullName>
+        <externalId>false</externalId>
+        <label>OS Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+                <value>
+                    <fullName>Windows</fullName>
+                    <default>false</default>
+                    <label>Windows</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OsVersion__c</fullName>
+        <externalId>false</externalId>
+        <label>OS Version</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PageCategories__c</fullName>
+        <externalId>false</externalId>
+        <label>Page Categories</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PagePostAuthorId__c</fullName>
+        <externalId>true</externalId>
+        <label>Page Post Author Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PagePostAuthor__c</fullName>
+        <externalId>false</externalId>
+        <label>Page Post Author</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PagePostDateDay__c</fullName>
+        <externalId>false</externalId>
+        <label>Page Post Date Day</label>
+        <length>2</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PagePostDateMonth__c</fullName>
+        <externalId>false</externalId>
+        <label>Page Post Date Month</label>
+        <length>2</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PagePostDateYear__c</fullName>
+        <externalId>false</externalId>
+        <label>Page Post Date Year</label>
+        <length>4</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PagePostDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Page Post Date</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PagePostTerms__c</fullName>
+        <externalId>false</externalId>
+        <label>Page Post Terms</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PagePostType2__c</fullName>
+        <externalId>false</externalId>
+        <label>Page Post Type 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>false</default>
+                    <label>Undefined</label>
+                </value>
+                <value>
+                    <fullName>single-post</fullName>
+                    <default>false</default>
+                    <label>single-post</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PagePostType__c</fullName>
+        <externalId>false</externalId>
+        <label>Page Post Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+                <value>
+                    <fullName>post</fullName>
+                    <default>false</default>
+                    <label>post</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PageTitle__c</fullName>
+        <externalId>false</externalId>
+        <label>Page Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PathName__c</fullName>
+        <description>Is a USVString containing an initial &apos;/&apos; followed by the path of the URL, not including the query string or fragment.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is a USVString containing an initial &apos;/&apos; followed by the path of the URL, not including the query string or fragment.</inlineHelpText>
+        <label>Location Path Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Port__c</fullName>
+        <description>Is a USVString containing the port number of the URL.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is a USVString containing the port number of the URL.</inlineHelpText>
+        <label>Location Port</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PostCountOnPage__c</fullName>
+        <externalId>false</externalId>
+        <label>Post Count on Page</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PostCountTotal__c</fullName>
+        <externalId>false</externalId>
+        <label>Post Count Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PostFormat__c</fullName>
+        <externalId>false</externalId>
+        <label>Post Format</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+                <value>
+                    <fullName>standard</fullName>
+                    <default>false</default>
+                    <label>standard</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PostID__c</fullName>
+        <externalId>true</externalId>
+        <label>Post ID</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Protocol__c</fullName>
+        <defaultValue>&quot;Undefined&quot;</defaultValue>
+        <description>Is a USVString containing the protocol scheme of the URL, including the final &apos;:&apos;.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is a USVString containing the protocol scheme of the URL, including the final &apos;:&apos;.</inlineHelpText>
+        <label>Location Protocol</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>HTTP</fullName>
+                    <default>false</default>
+                    <label>HTTP</label>
+                </value>
+                <value>
+                    <fullName>HTTPS</fullName>
+                    <default>false</default>
+                    <label>HTTPS</label>
+                </value>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>false</default>
+                    <label>Undefined</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Quarter__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(MONTH(DateValue(CreatedDate)) = 1,&quot;Q1&quot;,
+if(MONTH(DateValue(CreatedDate)) = 2,&quot;Q1&quot;,
+if(MONTH(DateValue(CreatedDate)) = 3,&quot;Q1&quot;,
+if(MONTH(DateValue(CreatedDate)) = 4,&quot;Q2&quot;,
+if(MONTH(DateValue(CreatedDate)) = 5,&quot;Q2&quot;,
+if(MONTH(DateValue(CreatedDate)) = 6,&quot;Q2&quot;,
+if(MONTH(DateValue(CreatedDate)) = 7,&quot;Q3&quot;,
+if(MONTH(DateValue(CreatedDate)) = 8,&quot;Q3&quot;,
+if(MONTH(DateValue(CreatedDate)) = 9,&quot;Q3&quot;,
+if(MONTH(DateValue(CreatedDate)) = 10,&quot;Q4&quot;,
+if(MONTH(DateValue(CreatedDate)) = 11,&quot;Q4&quot;,
+&quot;Q4&quot;)))))))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quarter</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Referrer__c</fullName>
+        <description>The value is an empty string if the user navigated to the page directly (not through a link, but, for example, by using a bookmark). Because this property returns only a string, it doesn&apos;t give you document object model (DOM) access to the referring page.
+
+Inside an &lt;iframe&gt;, the Document.referrer will initially be set to the same value as the href of the parent window&apos;s Window.location.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The value is an empty string if the user navigated to the page directly (not through a link, but, for example, by using a bookmark). Because this property returns only a string, it doesn&apos;t give you document object model (DOM) access to the referring page.
+
+Inside an &lt;iframe&gt;, the Document.referrer will initially be set to the same value as the href of the parent window&apos;s Window.location.</inlineHelpText>
+        <label>Referrer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Search__c</fullName>
+        <description>Is a USVString containing a &apos;?&apos; followed by the parameters or &quot;querystring&quot; of the URL. Modern browsers provide URLSearchParams and URL.searchParams to make it easy to parse out the parameters from the querystring.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is a USVString containing a &apos;?&apos; followed by the parameters or &quot;querystring&quot; of the URL. Modern browsers provide URLSearchParams and URL.searchParams to make it easy to parse out the parameters from the querystring.</inlineHelpText>
+        <label>Location Search</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SiteId__c</fullName>
+        <externalId>false</externalId>
+        <label>Site Id</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SiteName__c</fullName>
+        <externalId>false</externalId>
+        <label>Site Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TimeToScroll__c</fullName>
+        <externalId>false</externalId>
+        <label>Time to Scroll</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <description>The document.title property gets or sets the current title of the document.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The document.title property gets or sets the current title of the document.</inlineHelpText>
+        <label>Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerApiVersion__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracker API Version</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerClientId__c</fullName>
+        <description>Google Analytics generates a unique numeric Client ID for each browser–device pair.  The client Id cookie exists for 2 years.  The value before the first period is the unique Id for this client browser.  The value after is the creation time in UNIX format.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Google Analytics generates a unique numeric Client ID for each browser–device pair.  The client Id cookie exists for 2 years.  The value before the first period is the unique Id for this client browser.  The value after is the creation time in UNIX format.</inlineHelpText>
+        <label>Tracker Client Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerClientVersion__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracker Client Version</label>
+        <length>55</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerCookieDomain__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracker Cookie Domain</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerGbraid__c</fullName>
+        <description>After iOS14.5 update gclid parameters, which help to identify Google Ads traffic, started disappearing because of Apple&apos;s changes on tracking on IOS devices. Wbraid and gbraid are parameters added to the end of your URL, which represent iOS traffic.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>After iOS14.5 update gclid parameters, which help to identify Google Ads traffic, started disappearing because of Apple&apos;s changes on tracking on IOS devices. Wbraid and gbraid are parameters added to the end of your URL, which represent iOS traffic.</inlineHelpText>
+        <label>Tracker GBRAID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerGbt__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracker GBT</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerGclid__c</fullName>
+        <description>Google Click Identifier (GCLID) from Google Ads campaigns</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Google Click Identifier (GCLID) from Google Ads campaigns</inlineHelpText>
+        <label>Tracker GCLID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerGclsrc__c</fullName>
+        <description>To identify if a click ID was generated by Search Ads 360, Google Ads, or another engine, Search Ads 360 adds the gclsrc parameter to your landing page URLs and specifies one of the following values:
+
+gclsrc=aw.ds: the click ID was generated by a Google Ads account that is managed by Search Ads 360.
+
+gclsrc=ds: the click ID was generated by Search Ads 360 for an account that doesn&apos;t use parallel tracking.
+
+gclsrc=3p.ds: the click ID was generated by a parallel tracking-enabled account other than Google Ads.
+
+gclsrc=: the parameter is empty if the click ID was generated by Google Ads but neither Google Analytics support nor the conversion API service are enabled in Search Ads 360.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>gclsrc=aw.ds: the click ID was generated by a Google Ads account that is managed by Search Ads 360.
+
+gclsrc=ds: the click ID was generated by Search Ads 360 for an account that doesn&apos;t use parallel tracking.
+
+gclsrc=3p.ds: the click ID was generated by a parallel tracking-enabled account other than Google Ads.
+
+gclsrc=: the parameter is empty if the click ID was generated by Google Ads but neither Google Analytics support nor the conversion API service are enabled in Search Ads 360.</inlineHelpText>
+        <label>Tracker GCLSRC</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerGcn__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracker GCN</label>
+        <length>55</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerGid__c</fullName>
+        <description>See Tracker Client Id</description>
+        <externalId>false</externalId>
+        <inlineHelpText>See Tracker Client Id</inlineHelpText>
+        <label>Tracker GID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerGt__c</fullName>
+        <description>A UNIX time stamp</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A UNIX time stamp</inlineHelpText>
+        <label>Tracker GT</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerJavaEnabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Tracker Java Enabled</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>TrackerLanguage__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracker Language</label>
+        <length>55</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerName__c</fullName>
+        <description>Tracker objects (also known as &quot;trackers&quot;) are objects that can collect and store data and then send that data to Google Analytics.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Tracker objects (also known as &quot;trackers&quot;) are objects that can collect and store data and then send that data to Google Analytics.</inlineHelpText>
+        <label>Tracker Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerScreenColors__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracker Screen Colors</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+                <value>
+                    <fullName>24-bit</fullName>
+                    <default>false</default>
+                    <label>24-bit</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TrackerScreenResolution__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracker Screen Resolution</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+                <value>
+                    <fullName>1536x731</fullName>
+                    <default>false</default>
+                    <label>1536x731</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TrackerStoredClientId__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracker Stored Client Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerTrackingId__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracker Tracking Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TrackerViewportSize__c</fullName>
+        <externalId>false</externalId>
+        <label>Tracker Viewport Size</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URI__c</fullName>
+        <description>A URI (Uniform Resource Identifier) is a string that refers to a resource.
+
+The most common are URLs, which identify the resource by giving its location on the Web. URNs, by contrast, refer to a resource by a name, in a given namespace, such as the ISBN of a book.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A URI (Uniform Resource Identifier) is a string that refers to a resource.
+
+The most common are URLs, which identify the resource by giving its location on the Web. URNs, by contrast, refer to a resource by a name, in a given namespace, such as the ISBN of a book.</inlineHelpText>
+        <label>URI</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>URL__c</fullName>
+        <description>The URL read-only property of the Document interface returns the document location as a string.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The URL read-only property of the Document interface returns the document location as a string.</inlineHelpText>
+        <label>URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>VisitorDoNotTrack__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Visitor Do Not Track</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VisitorEmail__c</fullName>
+        <externalId>true</externalId>
+        <label>Visitor Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VisitorId__c</fullName>
+        <externalId>true</externalId>
+        <label>Visitor Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VisitorLoginState__c</fullName>
+        <externalId>false</externalId>
+        <label>Visitor Login State</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+                <value>
+                    <fullName>logged-in</fullName>
+                    <default>false</default>
+                    <label>logged-in</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>VisitorRegistrationDateUnix__c</fullName>
+        <externalId>false</externalId>
+        <label>Visitor Registration Date</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VisitorType__c</fullName>
+        <externalId>false</externalId>
+        <label>Visitor Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Undefined</fullName>
+                    <default>true</default>
+                    <label>Undefined</label>
+                </value>
+                <value>
+                    <fullName>administrator</fullName>
+                    <default>false</default>
+                    <label>administrator</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>VisitorUsername__c</fullName>
+        <externalId>false</externalId>
+        <label>Visitor Username</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(DATEVALUE(CreatedDate)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Google Tag Manager</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Event__c</columns>
+        <columns>PageTitle__c</columns>
+        <columns>Referrer__c</columns>
+        <columns>GtmDeviceId__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Devices</fullName>
+        <columns>NAME</columns>
+        <columns>GtmDeviceId__c</columns>
+        <columns>BrowserName__c</columns>
+        <columns>BrowserVersion__c</columns>
+        <columns>BrowserEngineName__c</columns>
+        <columns>DeviceType__c</columns>
+        <columns>DeviceModel__c</columns>
+        <columns>DeviceManufacturer__c</columns>
+        <columns>OsName__c</columns>
+        <columns>OsVersion__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Devices</label>
+    </listViews>
+    <nameField>
+        <displayFormat>gtm{YYYY}{MM}{DD}-{000000}</displayFormat>
+        <label>Google Tag Manager Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Googles Tag Manager</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>DataLayer__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
