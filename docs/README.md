@@ -26,7 +26,7 @@ Classes to parse form submissions (Salesforce web-to-lead and custom forms), loc
 
 ## Lead Association
 Supports pushing the GA Client Id with Salesforce Web-to-Lead form submissions so that people can be associated with page views, form submissions, and other custom events such as campaign email tracking.
-![Leads](./leads.png "Leads")
+![Leads](./Leads.png "Leads")
 
 Salesforce Lightning Out
 This integration uses Lightning Out to facilitate the integration between the website and Salesforce.
